@@ -28,7 +28,7 @@ export default async function Home() {
   return (
     <main className="my-4">
         <form onSubmit={handleSubmit} className="flex justify-center my-8 gap-2">
-            <input className="input input-sm w-4/12 text-black" type="text" name="text"/>
+            <input className="input input-sm w-4/12 text-black dark:text-white" type="text" name="text"/>
             <button className="btn btn-sm">click</button>
         </form>
         <div>
